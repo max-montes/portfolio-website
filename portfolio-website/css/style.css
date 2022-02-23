@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #f8333c;
+    --clr-accent: #6fd9f3;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -369,7 +369,7 @@ header a {
     }
 
     .about-me a {
-        color: #f8333c;
+        color: #6fd9f3;
         text-decoration: none;
     }
     
