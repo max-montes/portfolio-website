@@ -334,6 +334,11 @@ header a {
     margin: 0 auto;
 }
 
+.service a {
+    color: var(--clr-light);
+    text-decoration: none;
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
