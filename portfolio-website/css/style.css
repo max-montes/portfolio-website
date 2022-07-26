@@ -53,7 +53,7 @@ body {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 5em 1em;
 }
 
 img {
@@ -339,6 +339,11 @@ header a {
     text-decoration: none;
 }
 
+.service a:hover {
+    color: #00ffff;
+    text-decoration: none;
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
@@ -374,6 +379,39 @@ header a {
     }
 
     .about-me a {
+        color: #6fd9f3;
+        text-decoration: none;
+    }
+
+    .about-me a:hover {
+        opacity: .7;
+    }
+    
+    .about-me h2 {
+        display: flex;
+        color: #6fd9f3;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .about-me h3 {
+        color: #6fd9f3;
+        text-decoration: none;
+    }
+
+    .resume {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .resume h2{
+        color: #6fd9f3;
+        text-decoration: none;
+    }
+
+    .resume a {
         color: #6fd9f3;
         text-decoration: none;
     }
