@@ -400,18 +400,17 @@ header a {
     }
 
     .resume {
-        display: flex;
         max-width: 1000px;
         margin: 0 auto;
-        justify-content: center;
     }
 
-    .resume h2{
+    body .resume h2 {
         color: #6fd9f3;
+        text-align: center;
         text-decoration: none;
     }
-
-    .resume a {
+    
+    body .resume h2 a {
         color: #6fd9f3;
         text-decoration: none;
     }
