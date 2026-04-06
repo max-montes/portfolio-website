@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Max Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
-        
+        <title>Max Montes Soza</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-
     </head>
     <body>
         <header>
-            <!-- TODO: make custom logo -->
-            <!-- <div class="logo"> 
-                 <img src="img/fake_prom.jpeg" alt=""> 
-            </div> -->
             <a href="mailto:maxmontessoza@gmail.com" class="footer__link">maxmontessoza@gmail.com</a>
             <ul class="social-list">
-                <!-- <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/max_montes_soza">
-                        <i class="fab fa-twitter"></i> 
-                    </a>
-                </li> -->
                 <li class="social-list__item">
                     <a class="social-list__link" target="_blank" href="https://github.com/max-montes">
                         <i class="fab fa-github"></i>
@@ -41,11 +28,6 @@
                         <i class="iconify" data-icon="simple-icons:leetcode"></i>
                     </a>
                 </li>
-                <!-- <li class="social-list__item">
-                    <a class="social-list__link" href="https://stackoverflow.com/users/17978094/max-montes-soza?tab=profile">
-                        <i class="iconify" data-icon="bi:stack-overflow" data-width="24" data-height="24"></i>
-                    </a>
-                </li> -->
             </ul>
 
             <button class="nav-toggle" aria-label="toggle navigation">
@@ -54,9 +36,8 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <!-- <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li> -->
+                    <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -66,163 +47,68 @@
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Max Montes Soza</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <p class="section__subtitle section__subtitle--intro">AI-Native Software Engineer</p>
             <img src="img/CommencementBallCropped.jpeg" alt="a picture of me smiling" class="intro__img">
         </section>
         
         
         <!-- My services -->
         <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
+            <h2 class="section__title section__title--services">What I Do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Programming Languages<br>and Tools</h3>
-                    <p>Expert: Python, C#, Swift<br>HTML/CSS/TS, React</p>
-                    <p>Proficient: C, Java, Firebase</p>
-                </div> <!-- / service -->
+                    <h3>AI &amp; Machine Learning</h3>
+                    <p>LLMs, RAG, Prompt Engineering<br>Agentic Workflows, Semantic Kernel<br>PyTorch, Scikit-learn, Transformers</p>
+                </div>
                 
                 <div class="service">
-                    <h3>CS Coursework</h3>
-                    <p>Machine Learning <br> Operating Systems <br> Algorithms <br> Computer Networks <br> IOS Programming With Swift </p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
+                    <h3>Engineering</h3>
+                    <p>Python, C#, TypeScript<br>Azure, .NET, REST APIs<br>Distributed Systems, CI/CD</p>
+                </div>
+            </div>
             <div class="services">
                 <div class="service">
-                <h3>Projects</h3>
-                <p></p>
-                <p><a href="https://github.com/max-montes/ML-Stock-Market-Predictions" target="_blank">ML Stock Market Predictions<br>(Python, Scikit-Learn, Pandas, Matplotlib)</a></p>
-                <p>Copilot plugin: subscription cancellation<br>(C#, Semantic kernel, Cosmos)</p>
-                <p><a href="https://github.com/max-montes/BCSell" target="_blank">BCSell<br>(Swift, Firebase)</a></p>
-                <p>GoalPal<br>(HTML/CSS/JS, React, Firebase)</p>
-                </div> <!-- / service -->
+                    <h3>Projects</h3>
+                    <p><a href="https://github.com/max-montes/supervised-learning-benchmarks" target="_blank">Benchmarking Supervised Learning<br>(Python, PyTorch, Scikit-learn, Optuna)</a></p>
+                    <p><a href="https://github.com/max-montes/ML-Stock-Market-Predictions" target="_blank">ML Stock Market Predictions<br>(Python, Pandas, Matplotlib)</a></p>
+                    <p>LLM-Powered Copilot Agent<br>(C#, Semantic Kernel, Cosmos DB)</p>
+                </div>
                 <div class="service">
-                    <h3>Grades/Awards</h3>
+                    <h3>Research &amp; Awards</h3>
+                    <p><a href="https://ieeexplore.ieee.org/document/10473745" target="_blank">Published in IEEE</a> — bibliographic format convention with 26% greater read-write speed</p>
                     <p>GPA: 3.7 <b>Cum Laude</b></p>
-                    <p>SAT: 1540 <b>(800 perfect math)</b></p>
-                    <p>The Rochester Computing Medal <br> and Scholarship Program</p>
-                    <p>Computer Science Underclassmen Award</p>
-                </div> <!-- / service -->
+                    <p><b>800 Perfect Math SAT</b></p>
+                    <p>Rochester Computing Medal<br>CS Underclassmen Award</p>
+                </div>
             </div>
-            </div> <!-- / services -->
-
-            <div class="services">
-                <div class="service">
-                    <h3>Published Research</h3>
-                    <p><a href="https://ieeexplore.ieee.org/document/10473745" target="_blank">BabbleNewt: A Simplified, Consistent, and Interoperable Reference Citation Format for Bibliographic Metadata<br>(IEEE)</a></p>
-                </div> <!-- / service -->
-            </div>
-
-            
-            <!-- <a href="#work" class="btn">My Work</a> -->
         </section>
         
         
         <!-- About me -->
         <section class="about-me" id="about">
            <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">CS and Philosophy major <br> Boston College Morrissey College of Arts & Sciences <br> Class of 2025 </p>
+           <p class="section__subtitle section__subtitle--about">Software Engineer at Microsoft · M.S. Machine Learning at Georgia Tech</p>
            
            <div class="about-me__body">
-               <h3>Motivation</h3>
-               <p>Dedicated, reliable, and empathetic tech and philosophy enthusiast who demonstrates a strong work ethic. I thrive in fast-paced, collaborative, high-growth environments. I am passionate about actively learning new technologies and delivering human-centric solutions.</p>
+               <h3>What I'm Working On</h3>
+               <p>I build and evaluate AI agent systems at Microsoft, designing LLM-powered workflows, crafting prompts, and building automated evaluation infrastructure to ensure AI outputs are correct and reliable. I'm pursuing my M.S. in Computer Science with a Machine Learning specialization at Georgia Tech.</p>
                <h3>Background</h3>
-               <p>I've been in Boston since 2013, but I am originally from the Patagonia region in the south of Chile. I really enjoy powerlifting, mixed martial arts, reading Eastern and Western philosophy, walking my dog in the woods, and watching anime. A fun fact about me is that I can bike and juggle at the same time.
-               </p>
-                <br>
-               <!-- <h3><a href="https://newtechnologists.com/">New Technologist @ Microsoft & Cyborg Mobile<br>Summer 2022</a></h3> -->
-               <!-- <p>
-                    1 of 100 selected from 2,000+ applicants worldwide to be a New Technologist.
-                    Collaborated with a team of five using agile methodology to develop a goal-sharing social media platform for college students <strong>(HTML/CSS/JavaScript, React, Fluent UI, Bootstrap)</strong>.
-                    Identified pain points for college students by conducting <strong>user research</strong>.
-                    Researched and incorporated behavioral change techniques into app.
-                    Collaborated with teammates in applying the five-stage Design Thinking model to develop a human-centric solution and deliver an <strong>MVP</strong>.
-               </p>
-               <h3><a href="https://www.brainhealthalliance.org/BhaHome/About">Student Researcher @ Brain Health Alliance —— Spring 2021 – Fall 2021</a></h3>
-               <p>I developed leadership skills and a problem-solving mindset. 
-                I researched and developed a BibTeX format convention that parses 43% faster than other formats, as well as a an accompanying format converter and import/export feature. 
-                I also created program installation and troubleshooting guides for the organization's projects, led weekly discussions and moderated presentations on technology and innovation. 
-                I also spent time helping others grow their software engineering skills through tutoring and leading student teams in developing projects using agile/scrum methodology.
-                </p> -->
+               <p>I graduated Cum Laude from Boston College with degrees in Computer Science and Philosophy. Originally from the Patagonia region in the south of Chile. When I'm not building AI systems, I'm powerlifting, reading philosophy, training martial arts, walking my dog in the woods, or watching anime.</p>
            </div>
            
            <img src="img/VietnamTrain.png" alt="a picture of Max smiling" class="intro__img">
         </section>
         <section class="resume">
             <h2 style="text-align: center;">
-                <a a href="./img/Resume.pdf" target="_blank" style="color: #6fd9f3;
-        text-decoration: none;">View resume</a>
+                <a href="./img/Resume.pdf" target="_blank" style="color: #6fd9f3; text-decoration: none;">View Resume</a>
             </h2>
         </section>
-        
-        <!-- My Work -->
-        <!-- <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">Aaaa selection of my range of work</p>
-            <div class="portfolio">
-                Portfolio item 01 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-01.jpg" alt="project cool cool" class="portfolio__img">
-                </a>
-                
-                 Portfolio item 02 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-02.jpg" alt="fjas;fj" class="portfolio__img">
-                </a>  -->
-                
-                <!-- Portfolio item 03 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 04 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                 -->
-                <!-- Portfolio item 05 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 06 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 07 -->
-                <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-                 -->
-                <!-- Portfolio item 08 -->
-                <!-- <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 09 -->
-                <!-- <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a> -->
-                
-                <!-- Portfolio item 0 0-->
-                <!-- <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
-                -->
-            <!-- </div>
-        </section> -->
         
         
         <!-- Footer -->
         <footer class="footer">
-            <!-- replace with your own email address -->
             <a href="mailto:maxmontessoza@gmail.com" class="footer__link">maxmontessoza@gmail.com</a>
             <ul class="social-list">
-                <!-- <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/max_montes_soza">
-                        <i class="fab fa-twitter"></i> 
-                    </a>
-                </li> -->
                 <li class="social-list__item">
                     <a class="social-list__link" target="_blank" href="https://github.com/max-montes">
                         <i class="fab fa-github"></i>
@@ -238,11 +124,6 @@
                         <i class="iconify" data-icon="simple-icons:leetcode"></i>
                     </a>
                 </li>
-                <!-- <li class="social-list__item">
-                    <a class="social-list__link" href="https://stackoverflow.com/users/17978094/max-montes-soza?tab=profile">
-                        <i class="iconify" data-icon="bi:stack-overflow" data-width="24" data-height="24"></i>
-                    </a>
-                </li> -->
             </ul>
         </footer>
         <script src="js/index.js"></script>
