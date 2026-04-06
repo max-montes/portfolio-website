@@ -327,11 +327,13 @@ header a {
 
 .services {
     margin-bottom: 4em;
+    justify-content: center;
 }
 
 .service {
     max-width: 500px;
     margin: 0 auto;
+    flex: 1 1 0;
 }
 
 .service a {
